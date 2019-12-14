@@ -15,9 +15,11 @@ function App() {
       <div className="sidebar">
         <a href="/"><img src={logo} alt="logo" className="logo-img"/></a>
         <br/>
-        <img src="https://media.licdn.com/dms/image/C4E03AQFZEaunz86mvA/profile-displayphoto-shrink_200_200/0?e=1580342400&v=beta&t=P-ZmF4HO9ezMEqe-VXkUKRyW9jqVIjpZVZB6kLltuQw"
-                       alt="profile"
-                       className="profile-img"/>
+        <Link style={{textDecoration: 'none'}} to="/">
+          <img src="https://media.licdn.com/dms/image/C4E03AQFZEaunz86mvA/profile-displayphoto-shrink_200_200/0?e=1580342400&v=beta&t=P-ZmF4HO9ezMEqe-VXkUKRyW9jqVIjpZVZB6kLltuQw"
+                        alt="profile"
+                        className="profile-img"/>
+        </Link>
         <h4>Sanggyun Jerry Jang</h4>
         <div className="sidebar-contact">
           <img src={email} alt="email" className="icon-img one-line"/>
