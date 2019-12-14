@@ -1,1 +1,0 @@
-# goo951019.github.io
