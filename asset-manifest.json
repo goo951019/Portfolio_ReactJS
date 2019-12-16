@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.2505ae92.chunk.css",
-    "main.js": "/static/js/main.fbc38dda.chunk.js",
-    "main.js.map": "/static/js/main.fbc38dda.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.170f8412.js",
-    "runtime-main.js.map": "/static/js/runtime-main.170f8412.js.map",
-    "static/css/2.559fd73f.chunk.css": "/static/css/2.559fd73f.chunk.css",
-    "static/js/2.e2477def.chunk.js": "/static/js/2.e2477def.chunk.js",
-    "static/js/2.e2477def.chunk.js.map": "/static/js/2.e2477def.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.18790537c6ff4b67d0ad0736edeae120.js": "/precache-manifest.18790537c6ff4b67d0ad0736edeae120.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.559fd73f.chunk.css.map": "/static/css/2.559fd73f.chunk.css.map",
-    "static/css/main.2505ae92.chunk.css.map": "/static/css/main.2505ae92.chunk.css.map",
-    "static/js/2.e2477def.chunk.js.LICENSE": "/static/js/2.e2477def.chunk.js.LICENSE",
-    "static/media/email.png": "/static/media/email.c7bb5fc7.png",
-    "static/media/phone.png": "/static/media/phone.c66e8e1b.png"
+    "main.css": "/Portfolio_ReactJS/static/css/main.2505ae92.chunk.css",
+    "main.js": "/Portfolio_ReactJS/static/js/main.a383cbe4.chunk.js",
+    "main.js.map": "/Portfolio_ReactJS/static/js/main.a383cbe4.chunk.js.map",
+    "runtime-main.js": "/Portfolio_ReactJS/static/js/runtime-main.c4287cb8.js",
+    "runtime-main.js.map": "/Portfolio_ReactJS/static/js/runtime-main.c4287cb8.js.map",
+    "static/css/2.559fd73f.chunk.css": "/Portfolio_ReactJS/static/css/2.559fd73f.chunk.css",
+    "static/js/2.e2477def.chunk.js": "/Portfolio_ReactJS/static/js/2.e2477def.chunk.js",
+    "static/js/2.e2477def.chunk.js.map": "/Portfolio_ReactJS/static/js/2.e2477def.chunk.js.map",
+    "index.html": "/Portfolio_ReactJS/index.html",
+    "precache-manifest.2531962e7d31c259e5ead67141d6e134.js": "/Portfolio_ReactJS/precache-manifest.2531962e7d31c259e5ead67141d6e134.js",
+    "service-worker.js": "/Portfolio_ReactJS/service-worker.js",
+    "static/css/2.559fd73f.chunk.css.map": "/Portfolio_ReactJS/static/css/2.559fd73f.chunk.css.map",
+    "static/css/main.2505ae92.chunk.css.map": "/Portfolio_ReactJS/static/css/main.2505ae92.chunk.css.map",
+    "static/js/2.e2477def.chunk.js.LICENSE": "/Portfolio_ReactJS/static/js/2.e2477def.chunk.js.LICENSE",
+    "static/media/email.png": "/Portfolio_ReactJS/static/media/email.c7bb5fc7.png",
+    "static/media/phone.png": "/Portfolio_ReactJS/static/media/phone.c66e8e1b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.170f8412.js",
+    "static/js/runtime-main.c4287cb8.js",
     "static/css/2.559fd73f.chunk.css",
     "static/js/2.e2477def.chunk.js",
     "static/css/main.2505ae92.chunk.css",
-    "static/js/main.fbc38dda.chunk.js"
+    "static/js/main.a383cbe4.chunk.js"
   ]
 }
