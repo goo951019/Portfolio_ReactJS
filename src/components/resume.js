@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import Education from './education';
 import Project from './project';
+import Typist from 'react-typist';
 
 class Resume extends Component{
   render(){
@@ -9,8 +10,10 @@ class Resume extends Component{
       <div className="content" style={{position: 'static'}}>
         <Grid>
           <Cell style={{marginLeft: '340px', marginRight:'70px'}} col={8}>
-            <div className="resume-right-col">
-              <h2 style={{paddingLeft: '13px'}}>Education</h2>
+            <div className="resume-box calm-font">
+              <Typist cursor={{ show: false }} avgTypingDelay={140}>
+                  <h2 className="calm-font" style={{paddingLeft: '13px'}}>Education</h2>
+              </Typist>
               <hr className="hr-animation"/>
               <Education
                 startYear="Aug 2015"
@@ -18,17 +21,21 @@ class Resume extends Component{
                 schoolName="University of Georgia, Athens, GA"
                 degreeDescription="Bachelor of Science in Computer Science"/>
 
-              <h2 style={{paddingLeft: '13px'}}>Skills</h2>
+              <Typist cursor={{ show: false }} avgTypingDelay={200}>
+                  <h2 className="calm-font" style={{paddingLeft: '13px'}}>Skills</h2>
+              </Typist>
               <hr className="hr-animation"/>
-              <ul>
-                <li>Languages: Java, Swift, JavaScript, SQL [PostgreSQL, SQLite, MySQL], Python, C, C++</li>
-                <li>Technologies/Libraries: React, GitHub, Node.js, UNIX/Linux, Hibernate</li>
-                <li>Markup/Templating: HTML, CSS, WordPress</li>
-                <li>Cloud Technologies: Google [Firebase, FireStore, App Engine], AWS [EC2, Route 53]</li>
-                <li>Computer: Microsoft Office [Word, PowerPoint], Operating System [Windows, OSX]</li>
+              <ul style={{fontSize:'15px'}}>
+                <li><span style={{fontWeight:'bold'}}>Languages</span>: Java, Swift, JavaScript, SQL [PostgreSQL, SQLite, MySQL], Python, C, C++</li>
+                <li><span style={{fontWeight:'bold'}}>Technologies/Libraries</span>: React, GitHub, Node.js, UNIX/Linux, Hibernate</li>
+                <li><span style={{fontWeight:'bold'}}>Markup/Templating</span>: HTML, CSS, WordPress</li>
+                <li><span style={{fontWeight:'bold'}}>Cloud Technologies</span>: Google [Firebase, FireStore, App Engine], AWS [EC2, Route 53]</li>
+                <li><span style={{fontWeight:'bold'}}>Computer</span>: Microsoft Office [Word, PowerPoint], Operating System [Windows, OSX]</li>
               </ul>
 
-              <h2 style={{paddingLeft: '13px'}}>Projects</h2>
+              <Typist cursor={{ show: false }} avgTypingDelay={140}>
+                  <h2 className="calm-font" style={{paddingLeft: '13px'}}>Projects</h2>
+              </Typist>
               <hr className="hr-animation"/>
               <Project
                 projectName="Point of Sale Development"
