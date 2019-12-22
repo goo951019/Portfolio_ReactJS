@@ -76,12 +76,13 @@
   background-size: 200% 200%;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 270px;
   width: 100%;
   height: 100%;
+  overflow:auto;
 }
 .home-cell-grid{
-  padding: 100px 0 0 150px;
+  padding: 100px 0 0 100px;
 }
 .about-cell-grid{
   padding: 70px 0 0 70px;
@@ -92,6 +93,14 @@
   color:black;
   padding: 2em;
   border-radius: 10px;
+}
+.contact-box{
+  border: 1px solid #27221F;
+  border-radius: 10px;
+  background: white;
+  color:black;
+  padding: 2em;
+  margin-top: 10%;
 }
 .hr-animation{
   border-top: 2px solid black;
@@ -109,6 +118,23 @@
 }
 .italic{
   font-style: italic;
+}
+.btn{
+  font-size: 30px;
+  background-color: white; color: black;
+  margin-top: 5px;
+}
+.sucsess  {
+  margin: 20px 0;
+  border: 1px solid green;
+  padding: 7px;
+  font-weight: bold;
+}
+.error {
+  margin: 20px 0;
+  border: 1px solid red;
+  padding: 7px;
+  font-weight: bold;
 }
 
 /* simple - enter transition 300ms, exit 150ms */
@@ -132,9 +158,7 @@
 
 /* If screen goes below 700px */
 @media (max-width:700px) {
-  .sidebar{
-    width: 60px;
-  }
+  .sidebar{width: 60px;}
   .sidebar-contact{visibility: hidden;}
   .name{visibility: hidden;}
   .profile-img{visibility: hidden;}
@@ -147,4 +171,5 @@
     margin-bottom: -20px;
   }
   .social-links i{font-size: 2.0em;}
+  .content{left: 60px;}
 }

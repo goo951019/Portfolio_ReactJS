@@ -7,11 +7,10 @@ import Sidebar from './components/sidebar';
 function App() {
   return (
     <div style={{height:'100%', width:'100%'}}>
-      <Sidebar/>>
-      <Content style={{zIndex:'-1'}} className='body-background'>
+      <Sidebar/>
+      <Content style={{zIndex:'0'}} className='body-background'>
           <Main/>
       </Content>
-
     </div>
   );
 }

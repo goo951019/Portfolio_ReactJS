@@ -6,7 +6,7 @@ class Project extends Component{
     return(
       <Grid>
         <Cell col={9}>
-          <h4 className="calm-font" style={{marginTop:'0px'}}>{this.props.projectName}</h4>
+          <h4 className="fancy-font" style={{marginTop:'0px'}}>{this.props.projectName}</h4>
           <p style={{marginTop:'-20px', fontSize:'15px'}}>{this.props.projectMaterial}</p>
           <ul style={{marginTop:'-10px', fontSize:'15px'}}>
             <li>{this.props.projectDescription}</li>

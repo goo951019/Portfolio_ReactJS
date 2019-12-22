@@ -5,12 +5,16 @@ import Typist from 'react-typist';
 class About extends Component{
   render(){
     return(
-        <div>
-            <Grid className="content" style={{paddingLeft: '270px'}}>
-            <Cell className="about-cell-grid" col={12}>
-                <div>
-                <Typist cursor={{ show: false }} avgTypingDelay={30}>
-                    <h4>public class Jerry{'{'}</h4>
+        <div className="content">
+        <Grid>
+          <Cell style={{marginLeft: '60px',marginRight:'70px'}} col={8}>
+            <div className="contact-box fancy-font">
+              <Typist cursor={{ show: false }} avgTypingDelay={140}>
+                  <h2 className="fancy-font" style={{paddingLeft: '13px'}}>About</h2>
+              </Typist>
+              <hr className="hr-animation"/>
+              <Typist cursor={{ show: false }} avgTypingDelay={30}>
+                    <h4>class Jerry{'{'}</h4>
                     <h4 style={{paddingLeft: '80px'}}>int age = 24;</h4>
                     <h4 style={{paddingLeft: '80px'}}>location: 'Dacula, Georgia'</h4>
                     <h4 style={{paddingLeft: '80px'}}>String nationality = "American";</h4>
@@ -23,10 +27,10 @@ class About extends Component{
                     <h4 style={{paddingLeft: '80px'}}>hobbies: ['Guitar', 'Cooking', 'Singing'];</h4>
                     <h4 style={{paddingLeft: '80px'}}>{'};'}</h4>
                 </Typist>
-                </div>
-            </Cell>
-            </Grid>
-        </div>
+            </div>
+          </Cell>
+        </Grid>
+      </div>
     )
   }
 }

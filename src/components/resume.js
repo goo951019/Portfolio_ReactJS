@@ -7,12 +7,12 @@ import Typist from 'react-typist';
 class Resume extends Component{
   render(){
     return(
-      <div className="content" style={{position: 'static'}}>
+      <div className="content">
         <Grid>
-          <Cell style={{marginLeft: '340px', marginRight:'70px'}} col={8}>
-            <div className="resume-box calm-font">
+          <Cell style={{marginLeft: '60px', marginRight:'70px'}} col={8}>
+            <div className="resume-box fancy-font">
               <Typist cursor={{ show: false }} avgTypingDelay={140}>
-                  <h2 className="calm-font" style={{paddingLeft: '13px'}}>Education</h2>
+                  <h2 className="fancy-font" style={{paddingLeft: '13px'}}>Education</h2>
               </Typist>
               <hr className="hr-animation"/>
               <Education
@@ -22,7 +22,7 @@ class Resume extends Component{
                 degreeDescription="Bachelor of Science in Computer Science"/>
 
               <Typist cursor={{ show: false }} avgTypingDelay={200}>
-                  <h2 className="calm-font" style={{paddingLeft: '13px'}}>Skills</h2>
+                  <h2 className="fancy-font" style={{paddingLeft: '13px'}}>Skills</h2>
               </Typist>
               <hr className="hr-animation"/>
               <ul style={{fontSize:'15px'}}>
@@ -34,7 +34,7 @@ class Resume extends Component{
               </ul>
 
               <Typist cursor={{ show: false }} avgTypingDelay={140}>
-                  <h2 className="calm-font" style={{paddingLeft: '13px'}}>Projects</h2>
+                  <h2 className="fancy-font" style={{paddingLeft: '13px'}}>Projects</h2>
               </Typist>
               <hr className="hr-animation"/>
               <Project
