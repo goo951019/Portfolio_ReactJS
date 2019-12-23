@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Cell, Textfield} from 'react-mdl';
+import {Grid, Cell} from 'react-mdl';
 import Typist from 'react-typist';
 
 class Contact extends Component{
@@ -31,7 +31,7 @@ class Contact extends Component{
     let formIsValid = true;
     let msg = this.state.message;
 
-    if(msg == ''){
+    if(msg === ''){
       formIsValid = false;
     }
     return formIsValid;

@@ -208,3 +208,11 @@
   .social-links i{font-size: 2.0em;}
   .content{left: 60px;}
 }
+
+@media (pointer:none), (pointer:coarse) {
+  .content{left: 60px;}
+  .home-cell-grid{padding: 100px 0 0 50px;}
+  .mobile-font{
+    font-size: 25px;
+  }
+}

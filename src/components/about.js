@@ -94,12 +94,12 @@ class About extends Component{
                                 </div>
                                 <div className="msg-container" style={{alignItem:'center'}}>
                                     <img width="180" height="170" src={Hiking} alt="Hiking" style={{paddingTop: '20px'}}/>
-                                    <div class="msg-overlay">
-                                        <div class="text">Taken at Stone Mountain</div>
+                                    <div className="msg-overlay">
+                                        <div>Taken at Stone Mountain</div>
                                     </div>
                                 </div>
-                                <iframe width="200" height="115" style={{paddingTop: '20px'}} 
-                                        src="https://www.youtube.com/embed/uInyi1jLg6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe title="myguitarproject"width="200" height="115" style={{paddingTop: '20px'}} 
+                                        src="https://www.youtube.com/embed/uInyi1jLg6o" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
                         </div>
                     </Cell>
