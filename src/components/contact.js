@@ -19,8 +19,8 @@ class Contact extends Component{
   handleChange(event) {this.setState({message: event.target.value})}
 
   handleSubmit (event) {
+    const templateId = 'template_4i46rWgm';
     if(this.handleValidation()){
-      const templateId = 'template_4i46rWgm';
       this.sendMessage(templateId, {message_html: this.state.message, from_name: this.state.name, reply_to: this.state.email})
     }else{
       alert("Please fill out subject.")

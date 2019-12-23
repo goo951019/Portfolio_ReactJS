@@ -102,6 +102,15 @@
   padding: 2em;
   margin-top: 10%;
 }
+.about-box{
+  border: 1px solid #27221F;
+  border-radius: 10px;
+  background: white;
+  color:black;
+  padding: 2em;
+  margin-top: 7%;
+  min-height: 600px;
+}
 .hr-animation{
   border-top: 2px solid black;
   height: 0px;
@@ -116,9 +125,7 @@
   -webkit-columns: 2;
   -moz-columns: 2;
 }
-.italic{
-  font-style: italic;
-}
+.italic{font-style: italic;}
 .btn{
   font-size: 30px;
   background-color: white; color: black;
@@ -137,7 +144,35 @@
   font-weight: bold;
 }
 
-/* simple - enter transition 300ms, exit 150ms */
+/* About Page Hover Image Overlay*/
+.msg-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  width: 180px;
+  height: 0;
+  transition: .3s ease;
+}
+.msg-container{position:relative;}
+.msg-container:hover .msg-overlay {height: 15%;}
+.img-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  width: 0;
+  height: 125px;
+  transition: .3s ease;
+}
+.img-container{position:relative;}
+.img-container:hover .img-overlay {width: 180px;}
+
+/* face page transition - enter transition 300ms, exit 150ms */
 .fade-appear,
 .fade-enter {
     opacity: 0;
