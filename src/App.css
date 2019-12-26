@@ -222,7 +222,7 @@
   .nav-link-holder{visibility: hidden;}
   .nav-link{font-size:20px;}
   .social-links{
-    margin-top: 80%;
+    margin-top: 300px;
     font-size: 20px;
   }
   .name{font-size: 32px;}
@@ -237,5 +237,9 @@
   .one-line{
     line-height: 40px;
     font-size: 17px;
+  }
+  .social-links2{
+    flex-direction: row;
+    margin-bottom: 10px;
   }
 }
