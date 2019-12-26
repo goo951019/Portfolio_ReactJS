@@ -30,6 +30,7 @@
 .one-line{
   display:inline-block;
   line-height: 5px;
+  font-size:16px;
 }
 .nav-link{
   font-size: 20px;
@@ -210,9 +211,31 @@
 }
 
 @media (pointer:none), (pointer:coarse) {
-  .content{left: 60px;}
-  .home-cell-grid{padding: 100px 0 0 50px;}
-  .mobile-font{
-    font-size: 25px;
+  .content{visibility: hidden;}
+  .sidebar{width: 100%;}
+  .sidebar-contact{visibility: visible;}
+  .name{visibility: visible;}
+  .profile-img{
+    visibility: visible;
+    height: 200px;
+  }
+  .nav-link-holder{visibility: hidden;}
+  .nav-link{font-size:20px;}
+  .social-links{
+    margin-top: 80%;
+    font-size: 20px;
+  }
+  .name{font-size: 32px;}
+  .icon-img{
+    height:30px;
+    width:40px;
+  }
+  .sidebar-contact{
+    text-align: left;
+    padding-left: 30px;
+  }
+  .one-line{
+    line-height: 50px;
+    font-size: 20px;
   }
 }

@@ -3,6 +3,7 @@ import '../App.css';
 import logo from '../images/logo2.png';
 import email from '../images/email.png';
 import phone from '../images/phone.png';
+import resume from '../downloads/Resume.pdf';
 import {Link} from 'react-router-dom';
 
 class Sidebar extends Component{
@@ -16,11 +17,11 @@ class Sidebar extends Component{
                         className="profile-img"/>
             <h4 className="fancy-font name">Sanggyun Jerry Jang</h4>
             <div className="sidebar-contact">
-            <img src={email} alt="email" className="icon-img one-line"/>
-            <p style={{paddingLeft:'10px', fontSize:'16px'}} className="one-line">goo1140@gmail.com</p>
-            <br/>
-            <img src={phone} alt="phone" className="icon-img one-line"/>
-            <p style={{paddingLeft:'10px', fontSize:'16px'}} className="one-line">(770)756-5552</p>
+                <img src={email} alt="email" className="icon-img one-line"/>
+                <p style={{paddingLeft:'10px'}} className="one-line">goo1140@gmail.com</p>
+                <br/>
+                <img src={phone} alt="phone" className="icon-img one-line"/>
+                <p style={{paddingLeft:'10px'}} className="one-line">(770)756-5552</p>
             </div>
             <div className="nav-link-holder" style={{paddingTop:'15px'}}>
                 <Link style={{textDecoration: 'none'}} to="/Portfolio_ReactJS/about"><p className="nav-link">About</p></Link>
@@ -48,6 +49,10 @@ class Sidebar extends Component{
                     <i className="fa fa-instagram" aria-hidden="true" />
                     </a><br/>
                 </div>
+                <br/>
+                <a href={resume} download="Jerry's Resume.pdf" style={{textDecoration: 'none'}}>
+                    <p className="nav-link">Download Resume</p>
+                </a>
             </div>
         </div>
         )

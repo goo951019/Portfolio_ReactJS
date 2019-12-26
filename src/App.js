@@ -8,7 +8,7 @@ function App() {
   return (
     <div style={{height:'100%', width:'100%'}}>
       <Sidebar/>
-      <Content style={{zIndex:'0'}} className='body-background'>
+      <Content style={{zIndex:'0'}}>
           <Main/>
       </Content>
     </div>
