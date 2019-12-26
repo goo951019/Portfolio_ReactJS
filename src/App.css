@@ -217,7 +217,7 @@
   .name{visibility: visible;}
   .profile-img{
     visibility: visible;
-    height: 200px;
+    height: 20%;
   }
   .nav-link-holder{visibility: hidden;}
   .nav-link{font-size:20px;}
@@ -227,15 +227,15 @@
   }
   .name{font-size: 32px;}
   .icon-img{
-    height:30px;
-    width:40px;
+    height:24px;
+    width:32px;
   }
   .sidebar-contact{
     text-align: left;
     padding-left: 30px;
   }
   .one-line{
-    line-height: 50px;
-    font-size: 20px;
+    line-height: 40px;
+    font-size: 17px;
   }
 }
