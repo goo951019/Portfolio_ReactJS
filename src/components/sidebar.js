@@ -4,6 +4,7 @@ import logo from '../images/logo2.png';
 import email from '../images/email.png';
 import phone from '../images/phone.png';
 import resume from '../downloads/Resume.pdf';
+import profile from '../images/profile.jpg'
 import {Link} from 'react-router-dom';
 
 class Sidebar extends Component{
@@ -12,9 +13,7 @@ class Sidebar extends Component{
         <div className="sidebar fancy-font">
             <Link to="/Portfolio_ReactJS/"><img src={logo} alt="logo" className="logo-img"/></Link>
             <br/>
-            <img src="https://media.licdn.com/dms/image/C4E03AQFZEaunz86mvA/profile-displayphoto-shrink_200_200/0?e=1580342400&v=beta&t=P-ZmF4HO9ezMEqe-VXkUKRyW9jqVIjpZVZB6kLltuQw"
-                        alt="profile"
-                        className="profile-img"/>
+            <img src={profile} atl="profile" className="profile-img"/>
             <h4 className="fancy-font name">Sanggyun Jerry Jang</h4>
             <div className="sidebar-contact">
                 <img src={email} alt="email" className="icon-img one-line"/>
